@@ -2,11 +2,6 @@
 session_start();
 
 
-// Handle form submission
-if (!isset($_SESSION['user_name'])) {
-    header('location:login.php');
-    exit();
-}
 @include 'config.php'; 
 
 
